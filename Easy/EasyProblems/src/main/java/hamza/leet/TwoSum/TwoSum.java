@@ -1,29 +1,19 @@
 package hamza.leet.TwoSum;
-import java.util.Scanner;
 public class TwoSum {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number of elements:");
-        // Read the number of elements to be stored in the array
-        int n = scanner.nextInt();
-        // Declare an array to store the numbers
-        int[] nums = new int[n];
-        System.out.println("Enter " + n + " numbers:");
-        // Loop to read each number into the array
-        for (int i = 0; i < n; i++) {
-            nums[i] = scanner.nextInt();
+    public static void main(String[] args){
+
+        /*Brute Forse Method Implementation: */
+
+        BruteForseMethod twoSum = new BruteForseMethod();
+        int[] result = twoSum.twoSum(new int[]{1, 3, 4, 5, 1}, 4);
+
+        if (result != null) {
+            System.out.println("The numbers are: " + result[0] + result[1]);
         }
-        // Enter your target
-        System.out.println("Enter your target: ");
-        int target = scanner.nextInt();
+        else {
+            System.out.println("No solutions found");
+        }
 
 
-
-
-
-
-
-
-        scanner.close(); // Close the scanner to prevent resource leak
-    }
+  }
 }
