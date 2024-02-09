@@ -13,7 +13,6 @@ public class TwoSum {
         else {
             System.out.println("No solutions found");
         }
-
-
   }
+
 }
