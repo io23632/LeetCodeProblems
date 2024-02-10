@@ -14,17 +14,16 @@ public class TwoSum {
 //            System.out.println("No solutions found");
 //        }
 
-        HashMapSolution solution = new HashMapSolution();
-        int [] keyValue = solution.twoSum(new int[]{5, 6, 10, 11, 5, 12, 8}, 22);
 
-        for (int i = 0; i < keyValue.length; i++) {
-            System.out.println(keyValue[i]);
-        }
+        /* HashMap Method Implementation: */
+//        HashMapSolution solution = new HashMapSolution();
+//        int [] keyValue = solution.twoSum(new int[]{5, 6, 10, 11, 5, 12, 8}, 22);
+//        for (int i = 0; i < keyValue.length; i++) {
+//            System.out.println(keyValue[i]);
+//        }
 
 
-
-
-  }
+    }
 
 
 
